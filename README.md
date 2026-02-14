@@ -1,37 +1,54 @@
-# Dusty Ball Joint — Digg Engagement Persona
+# Digg Content Engine
 
-## What Is This?
+Multi-persona content system for driving engagement on Digg through authentic, researched content and comments.
 
-A persistent persona for driving engagement on Digg through authentic, well-researched content and comments. Dusty is a character with a real backstory, real opinions, and real taste — not just a faceless content machine.
+## Structure
 
-## Files
+```
+digg-content-engine/
+├── scripts/
+│   └── clean-for-paste.ps1    # Sanitize text for web pasting
+├── personas/
+│   └── dustyballjoint/        # First persona
+│       ├── PERSONA.md         # Identity & voice
+│       ├── BOOKSHELF.md       # Domain knowledge (books)
+│       ├── POST-HISTORY.md    # Engagement tracker
+│       └── posts/             # Ready-to-post content
+└── README.md
+```
 
-| File | Purpose |
-|------|---------|
-| `PERSONA.md` | Core identity, personality, voice guidelines |
-| `BOOKSHELF.md` | Reading history, favorites, currently reading, DNFs |
-| `POST-HISTORY.md` | Track all posts, engagement metrics, learnings |
-| `posts/` | Ready-to-post content with responses prepped |
+## Adding a Persona
 
-## How To Use
+1. Create folder: `personas/<username>/`
+2. Add `PERSONA.md` with identity, voice, backstory
+3. Add domain knowledge files (BOOKSHELF.md, GAMES.md, etc.)
+4. Add `POST-HISTORY.md` to track engagement
+5. Create `posts/` folder for ready content
 
-1. **Before posting:** Review PERSONA.md to get in character
-2. **When writing:** Reference BOOKSHELF.md for authentic details
-3. **After posting:** Log results in POST-HISTORY.md
-4. **Over time:** Add to BOOKSHELF.md as Dusty "reads" more
+## Clean Paste Script
 
-## Expanding the Persona
+Before pasting to Digg, run the clean script to remove invisible characters:
 
-When adding new communities (gaming, movies, overlanding, etc.), create:
-- A knowledge file (like BOOKSHELF.md but for that domain)
-- New posts in the `posts/` folder
-- Update PERSONA.md if new personality details emerge
+```powershell
+.\scripts\clean-for-paste.ps1 -Path "personas\dustyballjoint\posts\001-audiobooks.md"
+```
 
-## Voice Quick Reference
+This removes:
+- Non-breaking spaces (U+00A0)
+- Zero-width characters
+- Windows line endings (CRLF → LF)
+- Trailing whitespace
 
-- **Do:** Write like talking to a friend, be specific, ask genuine questions
-- **Don't:** Lecture, get defensive, overuse exclamation points
-- **Tone:** Intelligent but not showy, kind but not soft, spicy but respectful
+Result is copied to clipboard, ready to paste.
+
+## Workflow
+
+1. Research community (Reddit/Twitter trends)
+2. Draft post in persona's voice
+3. Run clean-for-paste script
+4. Post to Digg
+5. Engage with comments using prepared responses
+6. Log results in POST-HISTORY.md
 
 ---
 
