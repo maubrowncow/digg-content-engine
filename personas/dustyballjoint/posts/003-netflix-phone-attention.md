@@ -1,0 +1,37 @@
+# Post #003 — Netflix Phone Attention
+
+**Target Community:** movies  
+**Status:** Ready to post
+
+---
+
+## TITLE
+
+```
+Matt Damon says Netflix wants movies to repeat the plot because viewers are on their phones. Are we ruining movies by not paying attention?
+```
+
+---
+
+## BODY
+
+```
+Matt Damon was just on Rogan talking about how Netflix approaches filmmaking now. Two things stood out:
+
+1. They want big action in the first five minutes to keep people from clicking away
+2. They want the plot restated three or four times in dialogue because viewers are on their phones
+
+His quote: "It wouldn't be terrible if you reiterated the plot three or four times in the dialogue because people are on their phones while they're watching."
+
+Ben Affleck pushed back a bit, pointing to Adolescence as proof you don't have to dumb things down. Long shots, silence, no hand-holding. And people loved it.
+
+Here's what I keep thinking about: are streamers responding to how we watch, or are they training us to watch worse? At some point it becomes a feedback loop. Make movies for distracted viewers, viewers get more distracted, make movies even simpler.
+
+I catch myself reaching for my phone during slow scenes. Didn't used to do that. Now I'm wondering if I broke my own attention span or if the movies just got worse at earning it.
+
+Where do you land on this? Is this just how entertainment works now, or are we losing something?
+```
+
+---
+
+*Created: 2026-02-14*
